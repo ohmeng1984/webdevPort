@@ -109,13 +109,14 @@ b.max-bold{ font-weight: 700; }
 --------------------------------- */
 
 .intro-section{ padding: 50px 0; position: relative; background-size: cover; 
-	z-index: 1;background-image: url(../../images/slider-3-1920x1080.jpg); }
+	z-index: 1;background-image: url(../../images/slider-3.jpg); }
 
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
-	right: 0; background: rgba(0,0,0, .2); }
+	right: 0; background: rgba(0,0,0, .3); }
 
 	
-/* HEADER */
+/* HEADER */
+
 .intro-section .heading-wrapper{ border-radius: 5px; padding: 30px 40px 20px; margin-bottom: 50px;
 	background: #FFAD01; color: #fff; }
 
@@ -174,6 +175,12 @@ b.max-bold{ font-weight: 700; }
 5. EXPERIENCE SECTION
 --------------------------------- */
 
+.experience-section{ padding: 50px 0; position: relative; background-size: cover; 
+	z-index: 1;background-image: url(../../images/slider-7.jpg); }
+
+.experience-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
+	right: 0; background: rgba(0,0,0, .0); }
+
 .experience .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
 
 .experience .list > li:before{ content: ''; position: absolute; top: 50%; left: 0; height: 10px; 
@@ -205,6 +212,13 @@ b.max-bold{ font-weight: 700; }
 7. EDUCATION SECTION
 --------------------------------- */
 
+.education-section{ padding: 50px 0; position: relative; background-size: cover; 
+	z-index: 1;background-image: url(../../images/slider-6.jpg); }
+
+.education-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
+	right: 0; background: rgba(0,0,0, .0); }
+
+
 .education-wrapper{ position: relative; }
 
 .education-wrapper:after{ content:''; position: absolute; top: 8px; bottom: 0; left: -51px;
@@ -222,5 +236,5 @@ b.max-bold{ font-weight: 700; }
 8. FOOTER
 --------------------------------- */
 
-.copyright{ text-align: center; padding: 30px 0; background: #28023D; }
+.copyright{ text-align: center; padding: 30px 0; background: indigo; }
 
